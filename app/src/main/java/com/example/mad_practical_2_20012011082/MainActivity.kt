@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     fun showMessage(msg:String){
         Log.i(TAG, "$msg")
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
-        val v=findViewById<constraintLayout?>(R.id.mainLayout)
+
     }
     override fun onRestart() {
         super.onRestart()
