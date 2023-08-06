@@ -40,6 +40,4 @@ class MainActivity : AppCompatActivity() {
         showMessage("OnDestroy() method is called")
     }
 
-
-
 }
